@@ -2,6 +2,7 @@ body {
     background-color:rgb(243, 247, 231);
 }
 
+/* Header*/
 #selfie {
     background-color: rgb(243, 247, 231);
     max-width: 200px;
@@ -14,8 +15,6 @@ body {
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
-
-/* Header*/
 
 #header {
     background-color: rgb(243, 247, 231);
@@ -54,8 +53,8 @@ body {
   }
   
   .topnav a.active {
-    background-color:  #f7844f;
-    color: white;
+    background-color:  #f99164;
+    color: black;
   }
   
   .topnav .icon {
@@ -85,7 +84,6 @@ body {
 }
 
 /*Knapp för att ta sig upp till startmenyn*/
-
 #myBtn {
     display: none; 
     position: fixed; 
@@ -107,7 +105,6 @@ body {
   }
 
 /* rubriker och paragrafer */
-
 h1 {
     background-color:  rgb( 255, 255, 255);
     color: rgb(8, 8, 8); 
@@ -138,7 +135,6 @@ p {
 
 
 /*Här har jag lagt in återkommande inställningar för classer för att få en röd tråd genom hela sidan*/
-
 .avsnitt {
     background-color:rgb(243, 247, 231);
     text-align: center;
@@ -179,7 +175,7 @@ p {
 .projektkort {
     width: 300px;
     height: auto;
-    box-shadow: 5px 5px 20px rgb(157, 155, 155);
+    box-shadow: 5px 5px 20px rgb(92, 91, 91);
     margin: 10px;
     background-color: rgb( 255, 255, 255); 
     border-radius: 20px;
@@ -197,7 +193,7 @@ p {
     margin-top: 25px;
     width: 250px;
     height: auto;
-    border: 1px solid #bab9b8;
+    border: 1px solid  rgb(197, 195, 195);
     border-radius: 20px;
     box-shadow: 2px 2px 2px rgb(197, 195, 195);
 }
@@ -214,6 +210,7 @@ p {
 
 .button:hover {
     background-color:#f7844f;
+    color: black;
 }
 
 /*Footer*/
